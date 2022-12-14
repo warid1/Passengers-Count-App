@@ -1,0 +1,70 @@
+body{
+    text-align: center;
+    font-weight: bold;
+    background-image: url(images/public_transport.png);
+    background-size: cover;
+    height: 100vh;
+    font-family: sans-serif;
+}
+
+.heading{
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+}
+
+#count-el{
+    background-color: black;
+    color: white;
+    width: 8%;
+    /* margin: auto; */
+}
+
+.counter_icon{
+    display: flex;
+    cursor: pointer;
+    justify-content: center;
+    place-items: center;
+    gap: 5px;
+}
+
+button{
+    color: white;
+    font-weight: bold;
+    padding: 16px;
+    width: 80%;
+    border-radius: 0.5rem;
+    margin: 10px auto;
+    cursor: pointer;
+}
+
+
+#increment-btn{
+    background-color: rgb(138, 212, 27);
+}
+
+#increment-btn:hover{
+    background-color: rgb(162, 255, 23);
+}
+
+#decrement-btn{
+    background-color: rgb(7, 7, 192);
+}
+
+#decrement-btn:hover{
+    background-color: rgb(0, 0, 252);
+}
+
+#save-btn{
+    background-color: rgb(206, 16, 16);
+}
+
+#save-btn:hover{
+    background-color: rgb(255, 0, 0);
+}
+
+.container{
+    background-color: rgb(255, 255, 255, 0.8);
+    padding: 16px 0;
+}
